@@ -45,9 +45,9 @@
 
     SEL action = nil;
     
-//    self.transitioningDelegate = self;
-//    action = @selector(presentClick);
-    action = @selector(buttonTouchAction:);
+    self.transitioningDelegate = self;
+    action = @selector(presentClick);
+//    action = @selector(buttonTouchAction:);
 
     [btn addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];

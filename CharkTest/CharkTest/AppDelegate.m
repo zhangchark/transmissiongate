@@ -23,8 +23,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window setBackgroundColor:[UIColor whiteColor]];
 
-//    ViewController *vc = [[ViewController alloc] init];
-    CropImageViewControlloer*vc = [[CropImageViewControlloer alloc] init];
+    ViewController *vc = [[ViewController alloc] init];
+//    CropImageViewControlloer*vc = [[CropImageViewControlloer alloc] init];
 
     UINavigationController *navCtl = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = navCtl;
