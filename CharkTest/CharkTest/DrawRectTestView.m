@@ -10,7 +10,7 @@
 
 @implementation DrawRectTestView
 
-#if 1
+#if 0
 // 画一条线
 - (void)drawRect:(CGRect)rect{
     CGContextRef ref = UIGraphicsGetCurrentContext(); // 拿到当前画板，在这个画板上画就是在视图上画
@@ -95,7 +95,7 @@
 
 #endif
 
-#if 0
+#if 1
 // 画三角
 - (void)drawRect:(CGRect)rect{
     CGContextRef ref = UIGraphicsGetCurrentContext();
